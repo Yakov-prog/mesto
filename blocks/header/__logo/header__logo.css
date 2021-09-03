@@ -1,0 +1,19 @@
+.header__logo {
+    background: no-repeat url(../../../images/logo/logo.svg);
+    width: 142px;
+    height: 33px;
+  }
+  
+  @media  (max-width: 550px) {
+    .header__logo {
+      margin-left: 8.43%;
+      width: 32.18%;
+    }
+  }
+
+  @media  (max-width: 320px) {
+    .header__logo {
+      width: 103px;
+      height: 24px;
+    }
+  }

@@ -1,0 +1,23 @@
+.profile-info__description-container {
+    color: white;
+    display: grid;
+    margin-left: 30px;
+    align-content: center;
+    grid-row-gap: 9px;
+    grid-column-gap: 19px;
+}
+
+@media (max-width: 768px) {
+    .profile-info__description-container {
+        margin: 26px 0 0 0;
+        grid-column-gap: 10px;
+        position: relative;
+        left: 5.8%;
+    }
+}
+
+@media (max-width: 500px) {
+    .profile-info__description-container {
+        grid-row-gap: 7.4px;        
+    }
+}

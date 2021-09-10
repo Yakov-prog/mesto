@@ -1,0 +1,20 @@
+.profile__add-button {
+    appearance: none;
+    border: 0;
+    background: url(../../../images/button__image/Add-Button.svg) no-repeat;
+    width: 150px;
+    height: 50px;
+    transition: opacity .2s linear .1s;
+}
+
+.profile__add-button:hover {
+    opacity: .6;
+  }
+
+  @media (max-width: 768px) {
+    .profile__add-button {
+        margin-top: 33px;
+        width: 282px;
+        background: url(../../../images/button__image/Add-Button2.svg) no-repeat;
+    }
+    }

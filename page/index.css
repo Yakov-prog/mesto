@@ -2,5 +2,15 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page-background/page-background.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__header-hidden/page__header-hidden.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/visually-hidden/visually-hidden.css);
+@import url(../blocks/profile-info/profile-info.css);
+@import url(../blocks/profile-info/__avatar/profile-info__avatar.css);
+@import url(../blocks/profile-info/__text-container/profile-info__description-container.css);
+@import url(../blocks/profile-info/__name/profile-info__name.css);
+@import url(../blocks/profile-info/__profession/profile-info__profession.css);
+@import url(../blocks/profile-info/__edit-button/profile-info__edit-button.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);

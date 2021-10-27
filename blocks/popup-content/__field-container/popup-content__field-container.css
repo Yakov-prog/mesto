@@ -1,0 +1,12 @@
+.popup-content__field-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 85px;
+}
+
+@media (max-width: 400px) {
+    .popup-content__field-container {
+      margin-top: 27px;
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+    width: 880px;
+    display: flex;
+    margin: 0 auto 60px;
+}
+
+@media  (max-width: 1024px) {
+    .footer  {
+      width: 85.94%;
+    }
+  }
+  
+  @media  (max-width: 768px) {
+    .footer {
+        margin-bottom: 36px;
+    }
+  }
+
+  @media  (max-width: 550px) {
+    .footer {
+        width: 87.9%;
+    }
+  }

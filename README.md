@@ -1,17 +1,11 @@
-# Проект: Место
+# Mesto
+## Description
 
-### Обзор
+In this project i learnd how to use a JavaScript.There are a popup menu that will apear on click and  like button that can change it's color on click. This project also have HTML and CSS. There are grid and flex elements and also this project is adaptive to devices with width from 320px to 1280px  [Mesto]()
 
-* Figma
-* Картинки
 
-**Figma**
+# Место
+## Описание
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+В этом проекте я учусь использовать JavaScript. Есть всплывающее меню, которое появляется при нажатии, и кнопка Like, которая может изменить свой цвет при клике. В этом проекте также есть HTML и CSS языки. Есть Flex и Grid элементы, а также этот проект адаптивен к устройствам с шириной от 320  до 1280 пикселей. 
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!

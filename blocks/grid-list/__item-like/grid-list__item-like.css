@@ -1,0 +1,14 @@
+.grid-list__item-like {
+    appearance: none;
+    border: 0;
+    width: 22px;
+    height: 19px;
+    background: url(../../../images/Group-like.svg);
+    transition: opacity .2s linear .1s;
+    cursor: pointer;
+}
+
+.grid-list__item-like:not(.grid-list__item-like_liked):hover {
+    opacity: .6;
+  }
+

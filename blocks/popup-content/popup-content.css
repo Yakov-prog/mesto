@@ -1,0 +1,20 @@
+.popup-content {
+    display: flex;
+    width: 358px;
+    min-height: 259px;
+    margin-top: 33px;
+}
+
+@media (max-width: 768px) {
+    .popup-content {
+        width: 83.3%;
+        min-width: 238px;
+      }
+}    
+
+@media (max-width: 400px) {
+  .popup-content {
+      margin-top: 26px;
+      min-height: 272px;
+    }
+}    

@@ -1,0 +1,7 @@
+.grid-list__item {
+    background-color: white;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}

@@ -1,0 +1,26 @@
+.grid-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 17px;
+    grid-row-gap: 20px;
+  }
+
+  
+@media (max-width: 768px) {
+    .grid-list  {
+      grid-template-columns: repeat(2, 1fr);
+  
+    }
+  }
+  
+  @media (max-width: 520px) {
+    .grid-list  {
+      grid-template-columns: repeat(auto-fit, minmax(282px, 350px));
+      justify-content: center;
+      grid-row-gap: 19px;
+    }
+  }
+  

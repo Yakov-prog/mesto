@@ -1,0 +1,23 @@
+.photo-grid {
+    margin: 0 auto 67px;
+    width: 880px;
+  }
+  
+  @media  (max-width: 1024px) {
+    .photo-grid {
+      width: 85.93%;
+    }
+  }
+  
+  @media  (max-width: 768px) {
+    .photo-grid {
+      width: 88.25%;
+      margin-bottom: 54px;
+    }
+  }
+  
+  @media  (max-width: 550px) {
+    .photo-grid {
+      margin-bottom: 49px;
+    }
+  }

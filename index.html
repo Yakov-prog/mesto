@@ -12,48 +12,80 @@
       <a href="#" class="header__logo"></a>
     </header>
     <main>
-      <h1 class="page__header-hidden">Сайт Место</h1>
-      <div class="popup">
-        <div class="popup__container">
-          <div class="popup-content">
-            <button class="popup-content__close-btn"><span class="visually-hidden">Закрыть окно</span></button>
-            <form action="#" class="popup-content__form" method="post" enctype="multipart/form-data">
-              <h2 class="popup-content__form-title">Редактировать профиль</h2>
-              <div class="popup-content__field-container">
-                <input type="text"  name="popup-content__input-name" value="Жак-Ив Кусто" class="popup-content__input popup-content__input_name">
-                <input type="text" name="popup-content__input-profession" value="Исследователь океана" class="popup-content__input popup-content__input_profession">
-              </div>
-             <button type="submit" name="popup__save-btn" class="popup-content__save-btn">Сохранить</button>
-            </form>
-          </div>
-        </div>
-      </div>
       <section class="profile">
         <div class="profile-info">
           <img class="profile-info__avatar" src="./images/__avatar.jpg" alt="Аватар профиля">
           <div class="profile-info__description-container">
-            <p class="profile-info__name">Жак-Ив Кусто</p>
+            <h1 class="profile-info__name">Жак-Ив Кусто</h1>
             <p class="profile-info__profession">Исследователь океана</p>
-            <button type="button" class="profile-info__edit-button"><span class="visually-hidden">Редактировать профиль</span></button>
+            <button type="button" class="profile-info__edit-button" aria-label="Редактировать профиль"></button>
           </div>  
         </div> 
         <button type="button" class="profile__add-button"></button>
       </section>
       <section class="photo-grid">
         <ul class="grid-list">
-          <li class="grid-list__item"><img class="grid-list__image" src="./images/photo-grid__images/c53230d0dc2229c15d1d262b7906eacc-min.jpg" alt=""><div class="grid-list__description-container"><p class="grid-list__item-name">Карачаевск</p> <button type="button" class="grid-list__item-like"></button></div></li>
-          <li class="grid-list__item"><img class="grid-list__image" src="./images/photo-grid__images/094c482d6c821d8f7c5cb73551a93676-min.jpg" alt=""><div class="grid-list__description-container"><p class="grid-list__item-name">Гора Эльбрус</p><button type="button" class="grid-list__item-like"></button></div></li>
-          <li class="grid-list__item"><img class="grid-list__image" src="./images/photo-grid__images/e245698651e452bd730ce676e237cc7a-min.jpg" alt=""><div class="grid-list__description-container"><p class="grid-list__item-name">Домбай</p><button type="button" class="grid-list__item-like"></button></div></li>
-          <li class="grid-list__item"><img class="grid-list__image" src="./images/photo-grid__images/094c482d6c821d8f7c5cb73551a93676-min.jpg" alt=""><div class="grid-list__description-container"><p class="grid-list__item-name">Гора Эльбрус</p><button type="button" class="grid-list__item-like"></button></div></li>
-          <li class="grid-list__item"><img class="grid-list__image" src="./images/photo-grid__images/e245698651e452bd730ce676e237cc7a-min.jpg" alt=""><div class="grid-list__description-container"><p class="grid-list__item-name">Домбай</p><button type="button" class="grid-list__item-like"></button></div></li>
-          <li class="grid-list__item"><img class="grid-list__image" src="./images/photo-grid__images/c53230d0dc2229c15d1d262b7906eacc-min.jpg" alt=""><div class="grid-list__description-container"><p class="grid-list__item-name">Карачаево-Ч...</p><button type="button" class="grid-list__item-like"></button></div></li>
+          <li class="grid-list__item">
+            <img class="grid-list__image" src="./images/photo-grid__images/c53230d0dc2229c15d1d262b7906eacc-min.jpg" alt="Карачаевск">
+            <div class="grid-list__description-container">
+              <h2 class="grid-list__item-name">Карачаевск</h2>
+              <button type="button" class="grid-list__item-like"></button>
+            </div></li>
+          <li class="grid-list__item">
+            <img class="grid-list__image" src="./images/photo-grid__images/094c482d6c821d8f7c5cb73551a93676-min.jpg" alt="Гора Эльбрус">
+            <div class="grid-list__description-container">
+              <h2 class="grid-list__item-name">Гора Эльбрус</h2>
+              <button type="button" class="grid-list__item-like"></button>
+            </div>
+          </li>
+          <li class="grid-list__item">
+            <img class="grid-list__image" src="./images/photo-grid__images/e245698651e452bd730ce676e237cc7a-min.jpg" alt="Домбай">
+            <div class="grid-list__description-container">
+              <h2 class="grid-list__item-name">Домбай</h2>
+              <button type="button" class="grid-list__item-like"></button>
+            </div>
+          </li>
+          <li class="grid-list__item">
+            <img class="grid-list__image" src="./images/photo-grid__images/094c482d6c821d8f7c5cb73551a93676-min.jpg" alt="Гора Эльбрус">
+            <div class="grid-list__description-container">
+              <h2 class="grid-list__item-name">Гора Эльбрус</h2>
+              <button type="button" class="grid-list__item-like"></button>
+            </div>
+          </li>
+          <li class="grid-list__item">
+            <img class="grid-list__image" src="./images/photo-grid__images/e245698651e452bd730ce676e237cc7a-min.jpg" alt="Домбай">
+            <div class="grid-list__description-container">
+              <h2 class="grid-list__item-name">Домбай</h2>
+              <button type="button" class="grid-list__item-like"></button>
+            </div>
+          </li>
+          <li class="grid-list__item">
+            <img class="grid-list__image" src="./images/photo-grid__images/c53230d0dc2229c15d1d262b7906eacc-min.jpg" alt="Карачаево-Черкесия">
+            <div class="grid-list__description-container">
+              <h2 class="grid-list__item-name">Карачаево-Ч...</h2>
+              <button type="button" class="grid-list__item-like"></button>
+            </div>
+          </li>
         </ul>
       </section>> 
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
+    <div class="popup">
+      <div class="popup-content">
+          <button aria-label="Закрыть окно"  class="popup-content__close-btn" type="button"></button>
+          <form action="#" name="ProfileForm" class="popup-content__form" method="post" enctype="multipart/form-data">
+            <h2 class="popup-content__form-title">Редактировать профиль</h2>
+            <fieldset class="popup-content__field-container">
+              <input type="text"  name="inputProfileName" value="Жак-Ив Кусто" class="popup-content__input popup-content__input_value_name">
+              <input type="text" name="inputProfileProfession" value="Исследователь океана" class="popup-content__input popup-content__input_value_profession">
+            </fieldset>
+           <button type="submit" class="popup-content__save-btn">Сохранить</button>
+          </form>
+      </div>
+    </div>
   </div>
-  <script src="script.js"></script>  
+  <script src="scripts/script.js"></script>  
 </body>
 </html>

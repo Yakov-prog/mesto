@@ -1,7 +1,9 @@
 .popup-content__field-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    padding: 0;
+    margin: 0%;
+    grid-row-gap: 30px;
+    border: none;
     min-height: 85px;
 }
 

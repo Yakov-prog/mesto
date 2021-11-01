@@ -1,7 +1,23 @@
 .popup-content__form {
     display: flex;
+    width: 358px;
+    min-height: 259px;
+    margin-top: 33px;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
 }
 
+
+@media (max-width: 768px) {
+ .popup-content__form  {
+        width: 83.3%;
+        min-width: 238px;
+      }
+}    
+
+@media (max-width: 400px) {
+ .popup-content__form  {
+      margin-top: 26px;
+      min-height: 270px;
+    }
+}    

@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.grid-list__item-like:not(.grid-list__item-like_liked):hover {
-    opacity: .6;
+.grid-list__item-like:hover {
+    opacity: .5;
   }
 

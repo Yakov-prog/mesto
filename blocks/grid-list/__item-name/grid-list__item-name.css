@@ -9,3 +9,38 @@
     max-width: 190px;
 }
 
+@media (max-width: 950px) {
+    .grid-list__item-name  {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 850px) {
+    .grid-list__item-name  {
+        max-width: 175px;
+    }
+}
+
+@media (max-width: 780px) {
+    .grid-list__item-name  {
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-list__item-name  {
+        max-width: 190px;
+    }
+}
+
+@media (max-width: 570px) {
+    .grid-list__item-name  {
+        max-width: 172px;
+    }
+}
+
+@media (max-width: 520px) {
+    .grid-list__item-name  {
+        max-width: 200px;
+    }
+}

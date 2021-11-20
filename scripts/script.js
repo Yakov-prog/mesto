@@ -51,14 +51,25 @@ function toggleLike(event) {
   event.target.classList.toggle('grid-list__item-like_liked');
 } 
 
+function removeItem (event) {
+  event.target.closest('.grid-list__item').remove();
+}
+
 function renderPhoto(card) {
     const cloneTemplate = photoTemplate.content.cloneNode(true);
     cloneTemplate.querySelector('.grid-list__item-name').textContent = card.name;
     cloneTemplate.querySelector('.grid-list__image').setAttribute('src', card.link);
     cloneTemplate.querySelector('.grid-list__image').setAttribute('alt', card.name);
-    cloneTemplate.querySelector('.grid-list__item-like').addEventListener("click", toggleLike);
+    setEventListeners(cloneTemplate);
     photoList.prepend(cloneTemplate);
 }
+
+function setEventListeners(element) {
+    element.querySelector('.grid-list__item-like').addEventListener("click", toggleLike);
+    element.querySelector('.grid-list__item-delete').addEventListener("click", removeItem);
+}
+
+
 
 cardFormContent.addEventListener("submit", cardEdit);
 

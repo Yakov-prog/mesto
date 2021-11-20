@@ -19,6 +19,7 @@
 @import url(../blocks/grid-list/__description-container/grid-list__description-container.css);
 @import url(../blocks/grid-list/__item-name/grid-list__item-name.css);
 @import url(../blocks/grid-list/__item-like/grid-list__item-like.css);
+@import url(../blocks/grid-list/__item-delete/grid-list__item-delete.css);
 @import url(../blocks/grid-list/__item-like/_liked/grid-list__item-like_liked.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

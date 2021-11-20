@@ -1,0 +1,17 @@
+.grid-list__item-delete {
+    appearance: none;
+    border: 0;
+    width: 18px;
+    height: 19px;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: url(../../../images/GroupDelete.svg);
+    transition: opacity .2s linear .1s;
+    cursor: pointer;
+}
+
+.grid-list__item-delete:hover {
+    opacity: .6;
+  }

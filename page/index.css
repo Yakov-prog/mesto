@@ -24,12 +24,17 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_matter/_image/popup_matter_image.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup-content/popup-content.css);
 @import url(../blocks/popup-content/__close-btn/popup-content__close-btn.css);
+@import url(../blocks/popup-content/__close-btn/_position/_modal/popup-content__close-btn_modal.css);
 @import url(../blocks/popup-content/__form/popup-content__form.css);
 @import url(../blocks/popup-content/__form-title/popup-content__form-title.css);
 @import url(../blocks/popup-content/__field-container/popup-content__field-container.css);
 @import url(../blocks/popup-content/__input/popup-content__input.css);
 @import url(../blocks/popup-content/__save-btn/popup-content__save-btn.css);
+@import url(../blocks/modal-content/modal-content.css);
+@import url(../blocks/modal-content/__name/modal-content__name.css);
+@import url(../blocks/modal-content/__picture/modal-content__picture.css);
 

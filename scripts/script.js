@@ -6,12 +6,16 @@ const profileName = document.querySelector('.profile-info__name');
 const profileProfession = document.querySelector('.profile-info__profession');
 const profileNameInput = document.querySelector('.popup-content__input_value_name');
 const profileProfessionInput = document.querySelector('.popup-content__input_value_profession');
-const cardPopup = document.querySelector('.popup-card');
+const cardPopup = document.querySelector('.popup_matter_card');
 const cardEditBtn = document.querySelector('.profile__add-button');
 const cardCloseBtn = document.querySelector('.popup-content__close-btn_card');
 const cardFormContent = document.querySelector('.popup-content__form_card');
 const cardNameInput = document.querySelector('.popup-content__input_value_card');
 const cardLinkInput = document.querySelector('.popup-content__input_value_link');
+const imagePopup = document.querySelector('.popup_matter_image');
+const imagePopupName = document.querySelector('.modal-content__name');
+const imagePopupPicture = document.querySelector('.modal-content__picture');
+const imagePopupClose = document.querySelector('.popup-content__close-btn_position_modal');
 const photoList = document.querySelector('.grid-list');
 const photoTemplate = document.querySelector('.grid-list__template');
 const initialCards = [
@@ -64,12 +68,28 @@ function renderPhoto(card) {
     photoList.prepend(cloneTemplate);
 }
 
+
 function setEventListeners(element) {
     element.querySelector('.grid-list__item-like').addEventListener("click", toggleLike);
     element.querySelector('.grid-list__item-delete').addEventListener("click", removeItem);
+    element.querySelector('.grid-list__image').addEventListener("click", openImagePop);
 }
 
 
+
+function openImagePop(event) {
+    const imageSr = event.target.getAttribute("src");
+    const imageName = event.target.getAttribute("alt")
+    imagePopupPicture.setAttribute('src', imageSr);
+    imagePopupName.textContent = imageName;
+    imagePopup.classList.add('popup_opened');
+}
+
+imagePopupClose.addEventListener("click", closeImagePop);
+
+function closeImagePop() {
+  imagePopup.classList.remove('popup_opened');
+}
 
 cardFormContent.addEventListener("submit", cardEdit);
 

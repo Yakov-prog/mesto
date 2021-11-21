@@ -31,14 +31,14 @@
     <footer class="footer">
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
-    <div class="popup">
+    <div class="popup profile-popup">
       <div class="popup-content">
-          <button aria-label="Закрыть окно"  class="popup-content__close-btn" type="button"></button>
-          <form action="#" name="ProfileForm" class="popup-content__form" method="post" enctype="multipart/form-data">
+          <button aria-label="Закрыть окно"  class="popup__close popup__close_place_profile" type="button"></button>
+          <form action="#" name="ProfileForm" class="popup-content__form profile-popup__profile-form" method="post" enctype="multipart/form-data">
             <h2 class="popup-content__form-title">Редактировать профиль</h2>
             <fieldset class="popup-content__field-container">
-              <input type="text"  name="inputProfileName" value="Жак-Ив Кусто" class="popup-content__input popup-content__input_value_name">
-              <input type="text" name="inputProfileProfession" value="Исследователь океана" class="popup-content__input popup-content__input_value_profession">
+              <input required type="text"  name="inputProfileName" value="Жак-Ив Кусто" class="popup-content__input popup-content__input_value_name">
+              <input required type="text" name="inputProfileProfession" value="Исследователь океана" class="popup-content__input popup-content__input_value_profession">
             </fieldset>
            <button type="submit" class="popup-content__save-btn">Сохранить</button>
           </form>
@@ -46,12 +46,12 @@
     </div>
     <div class="popup popup_matter_card">
       <div class="popup-content">
-          <button aria-label="Закрыть окно"  class="popup-content__close-btn popup-content__close-btn_card" type="button"></button>
+          <button aria-label="Закрыть окно"  class="popup__close popup__close_place_card" type="button"></button>
           <form action="#" name="CardForm" class="popup-content__form popup-content__form_card" method="post" enctype="multipart/form-data">
             <h2 class="popup-content__form-title">Новое место</h2>
             <fieldset class="popup-content__field-container">
-              <input type="text"  name="inputCardName" placeholder="Название" class="popup-content__input popup-content__input_value_card">
-              <input type="text" value="" name="inputCardLink" placeholder="Ссылка на картинку" class="popup-content__input popup-content__input_value_link">
+              <input required type="text"  name="inputCardName" placeholder="Название" class="popup-content__input popup-content__input_value_card">
+              <input required type="text" value="" name="inputCardLink" placeholder="Ссылка на картинку" class="popup-content__input popup-content__input_value_link">
             </fieldset>
            <button type="submit" class="popup-content__save-btn">Создать</button>
           </form>
@@ -59,7 +59,7 @@
     </div>
     <div class="popup popup_matter_image">
       <div class="modal-content">
-        <button aria-label="Закрыть окно"  class="modal-content__close-btn" type="button"></button>
+        <button aria-label="Закрыть окно"  class="popup__close popup__close_place_picture" type="button"></button>
         <img class="modal-content__picture" src="./images/photo-grid__images/c53230d0dc2229c15d1d262b7906eacc-min.jpg" alt="Карачаевск">
         <p class="modal-content__name">Карачаевск</p>
       </div>

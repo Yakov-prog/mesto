@@ -100,7 +100,9 @@ function cardEdit (event) {
       link: cardLinkInput.value
     };
     renderPhoto(newCards);
-  closePopup ();   
+    cardNameInput.value = "";
+    cardLinkInput.value = "";
+    closePopup ();   
 }
 
 function openPopup() {
